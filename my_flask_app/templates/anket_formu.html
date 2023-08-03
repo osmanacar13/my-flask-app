@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anket Formu</title>
+</head>
+<body>
+    <h1>Anket Formu</h1>
+    <form method="POST" action="/">
+        <label for="isim">İsim:</label>
+        <input type="text" name="isim" required><br>
+
+        <label for="yas">Yaş:</label>
+        <input type="number" name="yas" required><br>
+
+        <label for="cinsiyet">Cinsiyet:</label>
+        <select name="cinsiyet" required>
+            <option value="erkek">Erkek</option>
+            <option value="kadın">Kadın</option>
+            <option value="diğer">Diğer</option>
+        </select><br>
+
+        <label for="memleket">Memleket:</label>
+        <input type="text" name="memleket" required><br>
+
+        <input type="submit" value="Gönder">
+    </form>
+</body>
+</html>
